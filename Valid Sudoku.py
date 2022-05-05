@@ -19,6 +19,7 @@ class Solution:
                 freq[i] = 1
         return True
 
+
     def isValidSudoku(self, board) -> bool:
         cols=[{},{},{},{},{},{},{},{},{}]
         for i in range(0,9):
