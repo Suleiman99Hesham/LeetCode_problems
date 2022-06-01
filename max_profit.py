@@ -9,6 +9,7 @@ class Solution:
                 print(val, max_after)
                 profit[val]=profit.get(val,max_after-val)
         print(profit)
+
         return max(profit.values())
 # class Solution:
 #     def maxProfit(self,prices):
