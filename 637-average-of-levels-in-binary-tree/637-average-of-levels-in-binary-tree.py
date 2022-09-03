@@ -28,11 +28,3 @@ class Solution:
             
 
         return result
-
-l2 = TreeNode(15)
-r2 = TreeNode(7)
-l1 = TreeNode(9 , l2, r2)
-r1 = TreeNode(20)
-root = TreeNode(3, l1, r1)
-
-print(Solution().averageOfLevels(root))
